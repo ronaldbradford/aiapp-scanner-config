@@ -64,12 +64,78 @@
       "type": "gui",
       "bundle_id": "com.microsoft.VSCode",
       "note": "Editor; AI extensions in ~/.vscode/extensions"
+    },
+    {
+      "name": "LM Studio.app",
+      "vendor": "LM Studio",
+      "type": "gui",
+      "bundle_id": "ai.elementlabs.lmstudio",
+      "note": "Local LLM chat and API"
+    },
+    {
+      "name": "Goose.app",
+      "vendor": "Block",
+      "type": "gui",
+      "bundle_id": "com.block.goose",
+      "note": "Open source AI agent (desktop)"
+    },
+    {
+      "name": "Void.app",
+      "vendor": "Void",
+      "type": "gui",
+      "bundle_id": "com.voideditor.code",
+      "note": "Open source AI code editor (VS Code fork)"
+    },
+    {
+      "name": "Zed.app",
+      "vendor": "Zed",
+      "type": "gui",
+      "bundle_id": "dev.zed.Zed",
+      "note": "Multiplayer code editor with AI"
+    },
+    {
+      "name": "Replit.app",
+      "vendor": "Replit",
+      "type": "gui",
+      "bundle_id": "com.electron.replit",
+      "note": "Development platform with AI agent"
+    },
+    {
+      "name": "Bolt.app",
+      "vendor": "BoltAI",
+      "type": "gui",
+      "bundle_id": "com.boltai.app",
+      "note": "Native AI client for Mac (300+ models)"
+    },
+    {
+      "name": "Tabnine.app",
+      "vendor": "Tabnine",
+      "type": "gui",
+      "bundle_id": "com.tabnine.Tabnine",
+      "note": "AI code completion and chat"
+    },
+    {
+      "name": "Otter.app",
+      "vendor": "Otter",
+      "type": "gui",
+      "bundle_id": "com.otter.otter",
+      "note": "AI coding assistant"
     }
   ],
   "vscode_extensions": [
     {
+      "id": "kilocode.Kilo-Code",
+      "name": "Kilo Code",
+      "vendor": "Kilo"
+    },
+    {
       "id": "roocode.roocode",
       "name": "Roo Code",
+      "vendor": "Roo"
+    },
+    {
+      "id": "rooveterinaryinc.roo-cline",
+      "name": "Roo Cline",
       "vendor": "Roo"
     }
   ],
@@ -161,6 +227,29 @@
       ],
       "config_paths": [
         "~/.config/io.datasette.llm"
+      ]
+    },
+    {
+      "name": "ollama",
+      "vendor": "Ollama",
+      "version_cmd": [
+        "ollama",
+        "--version"
+      ],
+      "config_paths": [
+        "~/.ollama"
+      ]
+    },
+    {
+      "name": "goose",
+      "vendor": "Block",
+      "version_cmd": [
+        "goose",
+        "--version"
+      ],
+      "config_paths": [
+        "~/Library/Application Support/Goose",
+        "~/.config/goose"
       ]
     }
   ],
